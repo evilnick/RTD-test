@@ -15,7 +15,7 @@ import datetime
 ############################################################
 
 # Product name
-project = 'Documentation starter pack'
+project = 'Charmed Kubernetes documentation'
 author = 'Canonical Group Ltd'
 
 # Uncomment if your product uses release numbers
@@ -65,14 +65,14 @@ html_context = {
     'discourse': 'https://discourse.ubuntu.com',
 
     # Change to the GitHub info for your project
-    'github_url': 'https://github.com/canonical/starter-pack',
+    'github_url': 'https://github.com/evilnick/RTD-test',
 
     # Change to the branch for this version of the documentation
     'github_version': 'main',
 
     # Change to the folder that contains the documentation
     # (usually "/" or "/docs/")
-    'github_folder': '/',
+    'github_folder': '/docs/',
 
     # Change to an empty value if your GitHub repo doesn't have issues enabled.
     # This will disable the feedback button and the issue link in the footer.
@@ -85,7 +85,7 @@ html_context = {
 
 # If your project is on documentation.ubuntu.com, specify the project
 # slug (for example, "lxd") here.
-slug = ""
+slug = "charmed-kubernetes"
 
 ############################################################
 ### Redirects
